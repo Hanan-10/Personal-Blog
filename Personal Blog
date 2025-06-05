@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .video {
+      margin-top: 15px;
+    }
+    .video img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .video img:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .social-item {
+      margin: 10px;
+      text-align: center;
+    }
+    .social-item img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .social-item img:hover {
+      transform: scale(1.05);
+    }
+    .social-item p {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#videos">Posts</a>
+      <a href="#social">Gallery</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Hanan, a content creator who loves to share my adventures, thoughts, and daily life. Subscribe and follow my journey!</p>
+    <p>My blog is a space where I combine creativity, curiosity, and storytelling. Whether it's exploring new places, trying unique cuisines, or just capturing candid moments from everyday life, my goal is to inspire, entertain, and connect with people from all walks of life. I believe in authenticity, and through my content, I aim to reflect real experiences that readers can relate to.</p>
+    <p>From travel diaries to lifestyle tips and meaningful reflections, you'll find a mix of everything here. Thanks for being part of my journey!</p>
+  </section>
+
+  <section id="videos">
+    <h2>Recent Blog Posts</h2>
+    <div class="video">
+      <h3>My Latest Adventure</h3>
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="My Latest Adventure" />
+      <p>This trip was unforgettable! I explored hidden gems along the coast, soaked up sunsets that seemed to last forever, and discovered cultures and flavors that completely blew my mind. Every step reminded me why I love to travel and document my experiences for others to enjoy and learn from.</p>
+    </div>
+    <div class="video">
+      <h3>A Day in My Life</h3>
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="A Day in My Life" />
+      <p>This post walks through a regular day in my shoes—from my morning routine and work habits to my favorite self-care practices and evening reflections. It’s a snapshot of how I stay grounded, productive, and grateful in the middle of life’s busy flow.</p>
+    </div>
+  </section>
+
+  <section id="social">
+    <h2>Blog Moments</h2>
+    <div class="social">
+      <div class="social-item">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Food Blog" />
+        <p>Food Blog</p>
+      </div>
+      <div class="social-item">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature Clip" />
+        <p>Nature Clip</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hanan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
