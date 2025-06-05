@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hanan - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+      color: #222;
+    }
+
+    header {
+      background-color: #002b5c;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 8px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .main, .sidebar {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .main {
+      flex: 3;
+    }
+
+    .sidebar {
+      flex: 1.2;
+    }
+
+    .section {
+      background-color: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-left: 6px solid #007c91;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #007c91;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #007c91;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .main, .sidebar {
+        flex: 1;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hanan</h1>
+    <p>Computer Science Undergraduate | Web Developer | Tech Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <div class="main">
+      <div class="section">
+        <h2>About Me</h2>
+        <p>I'm a dedicated and curious Computer Science student at Amal Jyothi College of Engineering. I enjoy exploring emerging technologies, creating web applications, and solving real-world problems with code. I'm constantly learning and looking forward to exciting challenges in software development.</p>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Languages: Python, Java, HTML, CSS, JavaScript</li>
+          <li>Frameworks/Tools: Git, VS Code, PyCharm</li>
+          <li>Core Concepts: Data Structures, Algorithms, OOP</li>
+          <li>Soft Skills: Communication, Teamwork, Analytical Thinking</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Sc. in Computer Science</strong><br>
+          Amal Jyothi College of Engineering, Kerala<br>
+          Expected Graduation: June 2028</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Relevant Coursework</h2>
+        <ul>
+          <li>Object-Oriented Programming</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Database Management Systems</li>
+          <li>Web Development</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+          <li>Active Member of ACM Student Chapter</li>
+          <li>Volunteered in tech fests and coding bootcamps</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Google Fundamentals of Digital Marketing</li>
+          <li>Responsive Web Design – freeCodeCamp</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Interests</h2>
+        <ul>
+          <li>Open-source development</li>
+          <li>UI/UX design exploration</li>
+          <li>Tech blogging & journaling</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="section contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:hanan@example.com">hanan@example.com</a></p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/hanan" target="_blank">github.com/hanan</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/hanan" target="_blank">linkedin.com/in/hanan</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
