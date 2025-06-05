@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Kottayam</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eef5f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2b6777;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    nav {
+      background-color: #52ab98;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #2b6777;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2b6777;
+      color: white;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Discover Kottayam</h1>
+    <p>The Land of Letters, Lakes, and Latex</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#places">Places to Visit</a>
+    <a href="#culture">Culture</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content">
+    <section id="about">
+      <h2>About Kottayam</h2>
+      <p>Kottayam is a picturesque district in the state of Kerala, India. Known for its rich cultural heritage and natural beauty, it is often called the "Land of Letters, Lakes, and Latex" due to its achievements in education, scenic backwaters, and rubber plantations.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Kumarakom_Lake.jpg/800px-Kumarakom_Lake.jpg" alt="Kumarakom Lake" />
+    </section>
+
+    <section id="places">
+      <h2>Popular Places to Visit</h2>
+      <ul>
+        <li><strong>Kumarakom:</strong> A serene backwater destination with houseboats and bird sanctuaries.</li>
+        <li><strong>Vembanad Lake:</strong> The longest lake in India, ideal for boating and photography.</li>
+        <li><strong>Thirunakkara Mahadeva Temple:</strong> A historical temple known for its mural art and traditional festivals.</li>
+        <li><strong>Illickal Kallu:</strong> A scenic hilltop spot offering breathtaking views and trekking opportunities.</li>
+      </ul>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vembanad_Lake.jpg/800px-Vembanad_Lake.jpg" alt="Vembanad Lake" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Thirunakkara_Mahadeva_Temple.jpg/800px-Thirunakkara_Mahadeva_Temple.jpg" alt="Thirunakkara Mahadeva Temple" />
+    </section>
+
+    <section id="culture">
+      <h2>Culture and Traditions</h2>
+      <p>Kottayam is a hub of literature and media in Kerala. It is home to several major publishing houses and newspapers. The people here celebrate traditional festivals like Onam and Vishu with great enthusiasm. The district also has a high literacy rate and a strong educational foundation.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Onam_Celebration.jpg/800px-Onam_Celebration.jpg" alt="Onam Celebration" />
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>For more information, visit the official tourism site of Kerala: <a href="https://www.keralatourism.org/" target="_blank">keralatourism.org</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Discover Kottayam. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
