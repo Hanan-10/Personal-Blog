@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amal Jyothi College of Engineering</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #8BC6EC, #9599E2);
+      color: #222;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    header img {
+      height: 60px;
+      width: 60px;
+      object-fit: contain;
+    }
+    nav {
+      background-color: #00509E;
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #FFD700;
+    }
+    section {
+      background-color: white;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 25px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    section h2 {
+      color: #004080;
+      border-bottom: 3px solid #00509E;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    .departments ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .departments li {
+      background-color: #e6f0ff;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-weight: 600;
+      color: #003366;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .image-gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Amal_Jyothi_College_of_Engineering_Logo.png/120px-Amal_Jyothi_College_of_Engineering_Logo.png" alt="Amal Jyothi Logo" />
+    <h1>Amal Jyothi College of Engineering</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Amal Jyothi College of Engineering (AJCE), located in Kanjirappally, Kerala, is the first engineering college in Kerala to obtain NAAC accreditation with an A grade and the first new-generation engineering college in the state to secure NBA accreditation for prime departments. The college is approved by the All India Council for Technical Education (AICTE) and affiliated with APJ Abdul Kalam Technological University.
+    </p>
+    <div class="image-gallery">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="College Campus" />
+      <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80" alt="College Building" />
+      <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=800&q=80" alt="Library" />
+    </div>
+  </section>
+
+  <section id="departments">
+    <h2>Departments</h2>
+    <div class="departments">
+      <ul>
+        <li>Chemical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Computer Science and Engineering</li>
+        <li>Food Technology</li>
+        <li>Electronics & Communication Engineering</li>
+        <li>Electrical & Electronics Engineering</li>
+        <li>Information Technology</li>
+        <li>Mechanical Engineering</li>
+        <li>Mechanical Engineering (Automobile)</li>
+        <li>Metallurgical & Materials Engineering</li>
+        <li>Master of Computer Applications</li>
+        <li>Basic Sciences</li>
+        <li>Humanities</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="admissions">
+    <h2>Admissions</h2>
+    <p>
+      AJCE offers undergraduate and postgraduate programs across various disciplines. For more details on admissions, please visit our official website.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Amal Jyothi College of Engineering, Koovappally P.O., Kanjirappally, Kerala, India - 686518</p>
+    <p><strong>Email:</strong> info@amaljyothi.ac.in</p>
+    <p><strong>Phone:</strong> +91 907 26 61 610 (Reception)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Amal Jyothi College of Engineering. All rights reserved.</p>
+  </footer>
+</body>
+</html>
