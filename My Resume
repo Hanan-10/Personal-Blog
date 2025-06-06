@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hana Naveen - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #0077cc;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hana Naveen</h1>
+        <p><strong>Email:</strong> your.email@example.com</p>
+        <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+        <p><strong>GitHub:</strong> github.com/yourusername</p>
+
+        <div class="section">
+            <h2>Objective</h2>
+            <p>To obtain a challenging position in the field of Computer Science where I can apply my skills and grow as a professional.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Technology in Computer Science</strong><br>
+                    [Your University Name], [City], [Year–Year]</li>
+                <li><strong>Higher Secondary Education</strong><br>
+                    [Your School Name], [City], [Year]</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, C++, Java</li>
+                <li>Web Technologies: HTML, CSS, JavaScript</li>
+                <li>Database: MySQL, MongoDB</li>
+                <li>Tools: Git, VS Code</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong> – A personal website to showcase my resume and projects using HTML, CSS, and JavaScript.</li>
+                <li><strong>Library Management System</strong> – Built using Python and MySQL for managing books in a library.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Introduction to Python - Coursera</li>
+                <li>Web Development Bootcamp - Udemy</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
