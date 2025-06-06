@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interstellar - A Cinematic Journey</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b0c10;
+      color: #cfd8dc;
+    }
+
+    .header {
+      background: #1f2833;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #66fcf1;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #aaa;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .poster {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .poster img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #45a29e;
+      margin-bottom: 10px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f2833;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Interstellar</h1>
+    <p>A film by Christopher Nolan (2014)</p>
+  </div>
+
+  <div class="container">
+
+    <div class="poster">
+      <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Interstellar Poster">
+    </div>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>
+        <strong>Interstellar</strong> is a science fiction epic that blends emotional storytelling with hard science. In a future where Earth is becoming uninhabitable, a former NASA pilot, Cooper, joins a mission to travel through a wormhole in search of a new home for humanity. The film tackles concepts of time dilation, black holes, love, and the survival instinct.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Main Cast</h2>
+      <ul>
+        <li>Matthew McConaughey as Cooper</li>
+        <li>Anne Hathaway as Dr. Amelia Brand</li>
+        <li>Jessica Chastain as Murph</li>
+        <li>Michael Caine as Professor Brand</li>
+        <li>Mackenzie Foy as Young Murph</li>
+        <li>Casey Affleck as Tom Cooper</li>
+        <li>Matt Damon as Dr. Mann</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Themes & Impact</h2>
+      <p>
+        Interstellar explores deep scientific theories like relativity and quantum gravity while grounding them in emotional themes of family, sacrifice, and endurance. Hans Zimmer’s haunting score and the breathtaking visuals make the film a modern masterpiece.
+        It has inspired scientists and artists alike, and its portrayal of a black hole helped inform real scientific visualizations.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Movie Stills</h2>
+      <div class="gallery">
+        <img src="https://cdn.wallpapersafari.com/27/58/7JwA4v.jpg" alt="Cooper looking at stars">
+        <img src="https://images7.alphacoders.com/547/547599.jpg" alt="Spaceship Endurance">
+        <img src="https://i.pinimg.com/originals/fb/59/e6/fb59e6fd36095fdaf684655ec4a5ff99.jpg" alt="TARS and Cooper">
+        <img src="https://images4.alphacoders.com/600/600474.jpg" alt="Dr. Brand on water planet">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Movie Page by Hana Naveen | Fan tribute to Interstellar
+  </footer>
+
+</body>
+</html>
